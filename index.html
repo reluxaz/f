@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Papsmob Telefon Vinilləri</title>
+  <!-- linkler -->
+  <link rel="icon" href="f.png" type="image/icon-x">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto:wght@100&display=swap"
+    rel="stylesheet">
+  <!-- linkler -->
+</head>
+<body>
+  <header id="yuxari">
+    <div class="so">
+      <p>Yüklənir...</p>
+      <div class="load">
+        <hr />
+        <hr />
+        <hr />
+        <hr />
+      </div>
+    </div>
+    <nav>
+      <div class="m1">
+        <a href="#"><img src="f.png"></a>
+      </div>
+      <div class="box2">
+        <input type="search" id="input" onkeyup="instantSearch()" placeholder="Zövqünüzə uyğun vinillər axtarın">
+        <button type="submit" class="searchButton">
+        <a href="#body"><i class="fa-solid fa-magnifying-glass"></i></a>  
+        </button>
+      </div>
+      <ul>
+        <li><a href="index.html">Ana Səhifə</a></li>
+        <li><a href="#cli">Haqqımızda</a></li>
+        <li><a href="#body">Vinillər</a></li>
+        <li><a href="elaqe.html">Əlaqə</a></li>
+        <li><a href="https://wa.me/+994559275156">Sifariş et</a></li>
+        <li>
+          <div class="fleks1">
+            <a href="https://www.tiktok.com/@brendvinil_papsmob?is_from_webapp=1&sender_device=pc/"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://instagram.com/brend.vinil/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/+994559275156"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </li>
+      </ul>
+      <div class="menyu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide hah">
+          <h1>İstədiyiniz şəkilə <br> uyğun vinillərin sifarişi</h1>
+          <h2>Topdan və Pərakəndə satış</h2>
+          <div class="m2">
+            <a href="https://wa.me/+994559275156">Sifariş edin</a>
+          </div>
+          <div class="m6">
+            <a href="#body"><i class="fa-solid fa-angles-down"></i></a>  
+            </div>
+        </div>
+        <div class="swiper-slide hah">
+          <h1>Azərbaycanın ən böyük <br> telefon Vinil Brendi</h1>
+          <h2>Topdan və Pərakəndə satış</h2>
+          <div class="m2">
+            <a href="https://wa.me/+994559275156">Sifariş edin</a>
+          </div>
+          <div class="m6">
+            <a href="#body"><i class="fa-solid fa-angles-down"></i></a>  
+            </div>
+        </div>
+        <div class="swiper-slide hah">
+          <h1>1000 lərlə vinil çeşidi <br> olan Tək ünvan</h1>
+          <h2>Topdan və Pərakəndə satış</h2>
+          <div class="m2">
+            <a href="https://wa.me/+994559275156">Sifariş edin</a>
+          </div>
+          <div class="m6">
+            <a href="#body"><i class="fa-solid fa-angles-down"></i></a>  
+            </div>
+        </div>
+      </div>       
+      <div class="swiper-pagination"></div>    
+    </div>  
+    <div class="t3">
+      <a href="#yuxari"><i class="fa-solid fa-angles-up"></i></a>
+    </div>
+  </header>
+  <section id="body">
+    <h3>Zövqünüzə uyğun Vinillər seçin</h3>
+    <div class="box3">
+      <input type="search" id="imput" onkeyup="instantSearch()" placeholder="Zövqünüzə uyğun vinillər axtarın">
+      <button type="submit" class="searchButton">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </div>
+    <ul>
+      <li cat="1">Vətən</li>
+      <li cat="2">Qız üçün</li>
+      <li cat="3">Oğlan üçün</li>
+      <li cat="4">Maşın</li>
+      <li cat="5">İdman</li>
+      <li cat="6">İllüstrasiya</li>
+      <li cat="7">Heyvanlar</li>
+      <li cat="8">Oyun</li>
+      <li cat="9">Dəri</li>
+      <li cat="10">Şəffaf</li>
+    </ul>
+    <h2 class="errortext">Axtarışınıza uyğun heç bir nəticə tapılmadı :(</h2>
+
+    <div class="fleks3" id="hoho">
+      <div class="t6 6">
+        <img src="v3.png">
+        <div class="k1">
+          <h6>Yeni</h6>
+          <div class="k2">
+            <h5 class="visual">Bayraq vinili</h5>
+            <p>4 AZN</p>
+          </div>
+          <div class="lin">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="k3">
+            <a href="whatsapp://send?text=Kataloqlardakı Bayraq vinilini sifariş etmək istəyirəm."> <p>Sifariş et</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="t6 5">
+        <img src="v2.png">
+        <div class="k1">
+          <h6>Yeni</h6>
+          <div class="k2">
+            <h5 class="visual">Idman vinili</h5>
+            <p>4 AZN</p>
+          </div>
+          <div class="lin">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="k3">
+            <a href="whatsapp://send?text=Kataloqlardakı Bayraq vinilini sifariş etmək istəyirəm."> <p>Sifariş et</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="t6 1">
+        <img src="v1.png">
+        <div class="k1">
+          <h6>Yeni</h6>
+          <div class="k2">
+            <h5 class="visual">Bayraq vinili</h5>
+            <p>4 AZN</p>
+          </div>
+          <div class="lin">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="k3">
+            <a href="whatsapp://send?text=Kataloqlardakı Bayraq vinilini sifariş etmək istəyirəm."> <p>Sifariş et</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="t6 7">
+        <img src="v4.png">
+        <div class="k1">
+          <h6>Yeni</h6>
+          <div class="k2">
+            <h5 class="visual">Bayraq vinili</h5>
+            <p>4 AZN</p>
+          </div>
+          <div class="lin">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div><div class="k3">
+            <a href="whatsapp://send?text=Kataloqlardakı Bayraq vinilini sifariş etmək istəyirəm."> <p>Sifariş et</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="t6 8">
+        <img src="v5.png">
+        <div class="k1">
+          <h6>Yeni</h6>
+          <div class="k2">
+            <h5 class="visual">Bayraq vinili</h5>
+            <p>4 AZN</p>
+          </div>
+          <div class="lin">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div><div class="k3">
+            <a href="whatsapp://send?text=Kataloqlardakı Bayraq vinilini sifariş etmək istəyirəm."> <p>Sifariş et</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="t6 5">
+        <img src="v6.png" alt="">
+        <div class="k1">
+          <h6>Yeni</h6>
+          <div class="k2">
+            <h5 class="visual">Bayraq vinili</h5>
+            <p>4 AZN</p>
+          </div>
+          <div class="lin">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div><div class="k3">
+            <a href="whatsapp://send?text=Kataloqlardakı Bayraq vinilini sifariş etmək istəyirəm."> <p>Sifariş et</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="t6 7">
+        <img src="v7.png">
+        <div class="k1">
+          <h6>Yeni</h6>
+          <div class="k2">
+            <h5 class="visual">Bayraq vinili</h5>
+            <p>4 AZN</p>
+          </div>
+          <div class="lin">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div><div class="k3">
+            <a href="whatsapp://send?text=Kataloqlardakı Bayraq vinilini sifariş etmək istəyirəm."> <p>Sifariş et</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="t6 2">
+        <img src="v8.png">
+        <div class="k1">
+          <h6>Yeni</h6>
+          <div class="k2">
+            <h5 class="visual">Bayraq vinili</h5>
+            <p>4 AZN</p>
+          </div>
+          <div class="lin">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div><div class="k3">
+            <a href="whatsapp://send?text=Kataloqlardakı Bayraq vinilini sifariş etmək istəyirəm."> <p>Sifariş et</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="div">
+        <p id="more">Daha çox</a>
+      </div>
+
+      <div class="t6 7">
+        <img src="v9.png">
+        <div class="k1">
+          <h6>Yeni</h6>
+          <div class="k2">
+            <h5 class="visual">Bayraq vinili</h5>
+            <p>4 AZN</p>
+          </div>
+          <div class="lin">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div><div class="k3">
+            <a href="whatsapp://send?text=Kataloqlardakı Bayraq vinilini sifariş etmək istəyirəm."> <p>Sifariş et</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="t6 4">
+        <img src="v10.png">
+        <div class="k1">
+          <h6>Yeni</h6>
+          <div class="k2">
+            <h5 class="visual">Bayraq vinili</h5>
+            <p>4 AZN</p>
+          </div>
+          <div class="lin">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div><div class="k3">
+            <a href="whatsapp://send?text=Kataloqlardakı Bayraq vinilini sifariş etmək istəyirəm."> <p>Sifariş et</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="t6 7">
+        <img src="v11.png">
+        <div class="k1">
+          <h6>Yeni</h6>
+          <div class="k2">
+            <h5 class="visual">Bayraq vinili</h5>
+            <p>4 AZN</p>
+          </div>
+          <div class="lin">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div><div class="k3">
+            <a href="whatsapp://send?text=Kataloqlardakı Bayraq vinilini sifariş etmək istəyirəm."> <p>Sifariş et</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="t6 8">
+        <img src="v12.png">
+        <div class="k1">
+          <h6>Yeni</h6>
+          <div class="k2">
+            <h5 class="visual">Bayraq vinili</h5>
+            <p>4 AZN</p>
+          </div>
+          <div class="lin">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div><div class="k3">
+            <a href="whatsapp://send?text=Kataloqlardakı Bayraq vinilini sifariş etmək istəyirəm."> <p>Sifariş et</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="t6 6">
+        <img src="v13.png" alt="">
+        <div class="k1">
+          <h6>Yeni</h6>
+          <div class="k2">
+            <h5 class="visual">Bayraq vinili</h5>
+            <p>4 AZN</p>
+          </div>
+          <div class="lin">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div><div class="k3">
+            <a href="whatsapp://send?text=Kataloqlardakı Bayraq vinilini sifariş etmək istəyirəm."> <p>Sifariş et</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="t6 9">
+        <img src="v14.png" alt="">
+        <div class="k1">
+          <h6>Yeni</h6>
+          <div class="k2">
+            <h5 class="visual">Bayraq vinili</h5>
+            <p>4 AZN</p>
+          </div>
+          <div class="lin">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div><div class="k3">
+            <a href="whatsapp://send?text=Kataloqlardakı Bayraq vinilini sifariş etmək istəyirəm."> <p>Sifariş et</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="t6 6">
+        <img src="v15.png" alt="">
+        <div class="k1">
+          <h6>Yeni</h6>
+          <div class="k2">
+            <h5 class="visual">Bayraq vinili</h5>
+            <p>4 AZN</p>
+          </div>
+          <div class="lin">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div><div class="k3">
+            <a href="whatsapp://send?text=Kataloqlardakı Bayraq vinilini sifariş etmək istəyirəm."> <p>Sifariş et</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="t6 5">
+        <img src="v6.png" alt="">
+        <div class="k1">
+          <h6>Yeni</h6>
+          <div class="k2">
+            <h5 class="visual">Bayraq vinili</h5>
+            <p>4 AZN</p>
+          </div>
+          <div class="lin">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div><div class="k3">
+            <a href="whatsapp://send?text=Kataloqlardakı Bayraq vinilini sifariş etmək istəyirəm."> <p>Sifariş et</p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="div1">
+      <a href="#hoho" class="less">Daha az</a>
+    </div>
+  </section>
+  <section id="customize">
+    <h1>Öz dizaynınızı seçin.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At labore officiis sequi beatae ullam illum, veniam quae illo molestias molestiae quasi vero.</p>
+    <div class="m7">
+      <a href="opt.html">Dizayn et</a>
+    </div>
+    <h1></h1>
+  </section>
+  <section id="cli">
+    <h1>Müştəri və Partnyorlarımızdan gələnlər</h1>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide pop">
+          <div class="fleks2">
+            <div class="main">
+              <img src="d2.png">
+              <i class="fa-solid fa-quote-left"></i>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum quas perspiciatis deleniti fugit
+                exercitationem atque harum qui hic tempore recusandae? Repellat modi perspiciatis fugiat! Sit repellat
+                eligendi optio porro id.</p>
+              <h2>relux_az</h2>
+              <h3>Partnyorumuz</h3>
+            </div>
+            <div class="main">
+              <img src="d2.png" alt="">
+              <i class="fa-solid fa-quote-left"></i>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum quas perspiciatis deleniti fugit
+                exercitationem atque harum qui hic tempore recusandae? Repellat modi perspiciatis fugiat! Sit repellat
+                eligendi optio porro id.</p>
+              <h2>brend_az</h2>
+              <h3>Müştərimiz</h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide pop">
+          <div class="fleks2">
+            <div class="main">
+              <img src="d2.png">
+              <i class="fa-solid fa-quote-left"></i>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum quas perspiciatis deleniti fugit
+                exercitationem atque harum qui hic tempore recusandae? Repellat modi perspiciatis fugiat! Sit repellat
+                eligendi optio porro id.</p>
+              <h2>relux_az</h2>
+              <h3>Partnyorumuz</h3>
+            </div>
+            <div class="main">
+              <img src="d2.png" alt="">
+              <i class="fa-solid fa-quote-left"></i>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum quas perspiciatis deleniti fugit
+                exercitationem atque harum qui hic tempore recusandae? Repellat modi perspiciatis fugiat! Sit repellat
+                eligendi optio porro id.</p>
+              <h2>brend_az</h2>
+              <h3>Müştərimiz</h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide pop">
+          <div class="fleks2">
+            <div class="main">
+              <img src="d2.png">
+              <i class="fa-solid fa-quote-left"></i>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum quas perspiciatis deleniti fugit
+                exercitationem atque harum qui hic tempore recusandae? Repellat modi perspiciatis fugiat! Sit repellat
+                eligendi optio porro id.</p>
+              <h2>relux_az</h2>
+              <h3>Partnyorumuz</h3>
+            </div>
+            <div class="main">
+              <img src="d2.png" alt="">
+              <i class="fa-solid fa-quote-left"></i>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum quas perspiciatis deleniti fugit
+                exercitationem atque harum qui hic tempore recusandae? Repellat modi perspiciatis fugiat! Sit repellat
+                eligendi optio porro id.</p>
+              <h2>brend_az</h2>
+              <h3>Müştərimiz</h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide pop">
+          <div class="fleks2">
+            <div class="main">
+              <img src="d2.png">
+              <i class="fa-solid fa-quote-left"></i>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum quas perspiciatis deleniti fugit
+                exercitationem atque harum qui hic tempore recusandae? Repellat modi perspiciatis fugiat! Sit repellat
+                eligendi optio porro id.</p>
+              <h2>relux_az</h2>
+              <h3>Partnyorumuz</h3>
+            </div>
+            <div class="main">
+              <img src="d2.png" alt="">
+              <i class="fa-solid fa-quote-left"></i>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum quas perspiciatis deleniti fugit
+                exercitationem atque harum qui hic tempore recusandae? Repellat modi perspiciatis fugiat! Sit repellat
+                eligendi optio porro id.</p>
+              <h2>brend_az</h2>
+              <h3>Müştərimiz</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <hr>
+  </section>
+
+  <section class="ff">
+    <div class="fleks4">
+      <div class="m3">
+        <img src="f.png">
+        <p>İstədiyiniz şəkilə uyğun vinillərin sifarişi , Azərbaycanın ən böyük telefon Vinil Brendi , 1000 lərlə vinil
+          çeşidi olan Tək ünvan.
+        </p>
+        <div class="fleks5">
+          <a href="https://www.tiktok.com/@brendvinil_papsmob?is_from_webapp=1&sender_device=pc/"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://instagram.com/brend.vinil/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/+994559275156"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="m3">
+        <h2>Yararlı linklər</h2>
+        <a href="index.html">Ana Səhifə</a>
+        <a href="#cli">Haqqımızda</a>
+        <a href="#body">Vinillər</a>
+        <a href="elaqe.html">Əlaqə</a>
+        <a href="#">Sifaris et</a>
+      </div>
+      <div class="m3">
+        <h2>Vinil Kataloqları</h2>
+        <a href="#">İllüstrasiya</a>
+        <a href="#">Heyvanlar</a>
+        <a href="#">Oğlan üçün</a>
+        <a href="#">Dəri</a>
+        <a href="#">Şəffaf</a>
+      </div>
+      <div class="m3">
+        <h2>Bizimlə Əlaqə</h2>
+        <div class="m5"><a href="tel:+994559275156"><i class="fa-solid fa-phone"></i>  055 927 51 56</a></div>
+<div class="m4">
+  <p><i class="fa-solid fa-location-dot"></i> <a href="https://goo.gl/maps/QnZHDpT7EyeksKkR9">28 mall ikinci girişi ilə üzbəüz</a> </p>
+</div>
+<div class="m4">
+    <p><i class="fa-solid fa-envelope"></i> papsmob7@gmail.com</p>
+</div>
+<div class="m4">
+   <p><i class="fa-solid fa-clock"></i> Açıqdır : <br> B.Ertəsi-Cümə 08:00 - 19:00</p>
+</div>
+
+      </div>
+    </div>
+  </section>
+  <footer>
+    <span>© 2022 | Papsmob Telefon Vinilləri | Hazırladı : <a href="http://relux.az/">Relux.az</a></span>
+  </footer>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+      }
+    });
+  </script>
+  <script src="src.js"></script>
+</body>
+</html>
